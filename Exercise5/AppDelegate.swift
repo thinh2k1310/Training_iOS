@@ -22,10 +22,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             let homeViewController = HomeViewController()
             homeViewController.username = userName
             let navController = UINavigationController()
+            if #available(iOS 13.0, *){
+                let app = UINavigationBarAppearance()
+                app.backgroundColor = .gray
+                navController.navigationBar.scrollEdgeAppearance = app
+            }
             navController.viewControllers = [loginViewController,homeViewController]
-            window?.rootViewController = homeViewController
+            window?.rootViewController = navController
         }else{
-            window?.rootViewController = UINavigationController(rootViewController: LoginViewController())
+            let navController = UINavigationController(rootViewController: LoginViewController())
+            if #available(iOS 13.0, *){
+                let app = UINavigationBarAppearance()
+                app.backgroundColor = .gray
+                navController.navigationBar.scrollEdgeAppearance = app
+            }
+            window?.rootViewController = navController
         }
         window?.makeKeyAndVisible()
         return true

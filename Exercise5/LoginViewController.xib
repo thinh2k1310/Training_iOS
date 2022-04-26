@@ -42,14 +42,15 @@
                     <textInputTraits key="textInputTraits"/>
                 </textField>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2E-7S-gLI">
-                    <rect key="frame" x="177" y="364" width="60" height="30"/>
+                    <rect key="frame" x="167" y="364" width="80" height="30"/>
                     <color key="backgroundColor" systemColor="linkColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="30" id="Ahg-rG-mbF"/>
-                        <constraint firstAttribute="width" constant="60" id="B0g-97-rPH"/>
+                        <constraint firstAttribute="width" constant="80" id="B0g-97-rPH"/>
                     </constraints>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" title="Login">
+                        <fontDescription key="titleFontDescription" type="system" pointSize="17"/>
                         <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </buttonConfiguration>
                     <connections>

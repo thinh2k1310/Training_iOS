@@ -16,11 +16,13 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
 
         title = "Login"
+        
         passwordTextField.isSecureTextEntry = true
     }
     override func viewWillAppear(_ animated: Bool) {
         usernameTextField.text = ""
         passwordTextField.text = ""
+        navigationController?.navigationBar.isHidden = true
     }
     
     
