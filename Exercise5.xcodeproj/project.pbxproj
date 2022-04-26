@@ -10,7 +10,10 @@
 		F3FE28E228178EEC00F473AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FE28E128178EEC00F473AD /* AppDelegate.swift */; };
 		F3FE28EB28178EF100F473AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FE28EA28178EF100F473AD /* Assets.xcassets */; };
 		F3FE28EE28178EF100F473AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FE28EC28178EF100F473AD /* LaunchScreen.storyboard */; };
-		F3FE28F628178FB300F473AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FE28F528178FB300F473AD /* HomeViewController.swift */; };
+		F3FE29192817A9D100F473AD /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FE29172817A9D100F473AD /* HomeViewController.swift */; };
+		F3FE291A2817A9D100F473AD /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FE29182817A9D100F473AD /* HomeViewController.xib */; };
+		F3FE291D2817AA9800F473AD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FE291B2817AA9800F473AD /* LoginViewController.swift */; };
+		F3FE291E2817AA9800F473AD /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3FE291C2817AA9800F473AD /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,7 +22,10 @@
 		F3FE28EA28178EF100F473AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3FE28ED28178EF100F473AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3FE28EF28178EF100F473AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F3FE28F528178FB300F473AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = Assets.xcassets/HomeViewController.swift; sourceTree = "<group>"; };
+		F3FE29172817A9D100F473AD /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F3FE29182817A9D100F473AD /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		F3FE291B2817AA9800F473AD /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F3FE291C2817AA9800F473AD /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				F3FE28E128178EEC00F473AD /* AppDelegate.swift */,
-				F3FE28F528178FB300F473AD /* HomeViewController.swift */,
 				F3FE28EA28178EF100F473AD /* Assets.xcassets */,
 				F3FE28EC28178EF100F473AD /* LaunchScreen.storyboard */,
 				F3FE28EF28178EF100F473AD /* Info.plist */,
+				F3FE29172817A9D100F473AD /* HomeViewController.swift */,
+				F3FE29182817A9D100F473AD /* HomeViewController.xib */,
+				F3FE291B2817AA9800F473AD /* LoginViewController.swift */,
+				F3FE291C2817AA9800F473AD /* LoginViewController.xib */,
 			);
 			path = Exercise5;
 			sourceTree = "<group>";
@@ -119,8 +128,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FE291E2817AA9800F473AD /* LoginViewController.xib in Resources */,
 				F3FE28EE28178EF100F473AD /* LaunchScreen.storyboard in Resources */,
 				F3FE28EB28178EF100F473AD /* Assets.xcassets in Resources */,
+				F3FE291A2817A9D100F473AD /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3FE291D2817AA9800F473AD /* LoginViewController.swift in Sources */,
 				F3FE28E228178EEC00F473AD /* AppDelegate.swift in Sources */,
-				F3FE28F628178FB300F473AD /* HomeViewController.swift in Sources */,
+				F3FE29192817A9D100F473AD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

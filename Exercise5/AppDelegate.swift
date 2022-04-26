@@ -14,8 +14,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.backgroundColor = .white
-        window?.rootViewController = UINavigationController(rootViewController: HomeViewController())
+        
+        let userDefaults = UserDefaults.standard
+        
+        let loginViewController = LoginViewController()
+        if let userName = userDefaults.string(forKey: "username"){
+            let homeViewController = HomeViewController()
+            homeViewController.username = userName
+            let navController = UINavigationController()
+            navController.viewControllers = [loginViewController,homeViewController]
+            window?.rootViewController = homeViewController
+        }else{
+            window?.rootViewController = UINavigationController(rootViewController: LoginViewController())
+        }
         window?.makeKeyAndVisible()
         return true
                     
