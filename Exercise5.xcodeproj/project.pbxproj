@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3829DA22817F65F005E99C7 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3829DA12817F65F005E99C7 /* UserView.swift */; };
+		F3CF79C52818D93F0096C4DD /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CF79C42818D93F0096C4DD /* AvatarView.swift */; };
+		F3CF79C72818D94E0096C4DD /* AvatarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CF79C62818D94E0096C4DD /* AvatarView.xib */; };
+		F3CF79C92818E1450096C4DD /* BallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CF79C82818E1450096C4DD /* BallView.swift */; };
+		F3CF79D22818E5BF0096C4DD /* BallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CF79D02818E5BF0096C4DD /* BallViewController.swift */; };
+		F3CF79D32818E5BF0096C4DD /* BallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F3CF79D12818E5BF0096C4DD /* BallViewController.xib */; };
 		F3FE28E228178EEC00F473AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FE28E128178EEC00F473AD /* AppDelegate.swift */; };
 		F3FE28EB28178EF100F473AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FE28EA28178EF100F473AD /* Assets.xcassets */; };
 		F3FE28EE28178EF100F473AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FE28EC28178EF100F473AD /* LaunchScreen.storyboard */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3829DA12817F65F005E99C7 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		F3CF79C42818D93F0096C4DD /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		F3CF79C62818D94E0096C4DD /* AvatarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvatarView.xib; sourceTree = "<group>"; };
+		F3CF79C82818E1450096C4DD /* BallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallView.swift; sourceTree = "<group>"; };
+		F3CF79D02818E5BF0096C4DD /* BallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallViewController.swift; sourceTree = "<group>"; };
+		F3CF79D12818E5BF0096C4DD /* BallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BallViewController.xib; sourceTree = "<group>"; };
 		F3FE28DE28178EEC00F473AD /* Exercise5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FE28E128178EEC00F473AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FE28EA28178EF100F473AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -54,9 +66,15 @@
 			children = (
 				F3FE28E128178EEC00F473AD /* AppDelegate.swift */,
 				F3FE28F528178FB300F473AD /* HomeViewController.swift */,
+				F3829DA12817F65F005E99C7 /* UserView.swift */,
 				F3FE28EA28178EF100F473AD /* Assets.xcassets */,
 				F3FE28EC28178EF100F473AD /* LaunchScreen.storyboard */,
 				F3FE28EF28178EF100F473AD /* Info.plist */,
+				F3CF79C42818D93F0096C4DD /* AvatarView.swift */,
+				F3CF79C62818D94E0096C4DD /* AvatarView.xib */,
+				F3CF79C82818E1450096C4DD /* BallView.swift */,
+				F3CF79D02818E5BF0096C4DD /* BallViewController.swift */,
+				F3CF79D12818E5BF0096C4DD /* BallViewController.xib */,
 			);
 			path = Exercise5;
 			sourceTree = "<group>";
@@ -119,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3CF79C72818D94E0096C4DD /* AvatarView.xib in Resources */,
+				F3CF79D32818E5BF0096C4DD /* BallViewController.xib in Resources */,
 				F3FE28EE28178EF100F473AD /* LaunchScreen.storyboard in Resources */,
 				F3FE28EB28178EF100F473AD /* Assets.xcassets in Resources */,
 			);
@@ -132,6 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3FE28E228178EEC00F473AD /* AppDelegate.swift in Sources */,
+				F3CF79C52818D93F0096C4DD /* AvatarView.swift in Sources */,
+				F3829DA22817F65F005E99C7 /* UserView.swift in Sources */,
+				F3CF79D22818E5BF0096C4DD /* BallViewController.swift in Sources */,
+				F3CF79C92818E1450096C4DD /* BallView.swift in Sources */,
 				F3FE28F628178FB300F473AD /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
